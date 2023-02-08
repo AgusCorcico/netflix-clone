@@ -1,4 +1,5 @@
 import Featured from '../featured/Featured';
+import List from '../list/List';
 import Navbar from '../navbar/Navbar';
 import './home.scss'
 
@@ -7,6 +8,11 @@ function Home() {
     <div className="home">
         <Navbar />
         <Featured type='Películas'/>
+        <List />
+        <List />
+        <List />
+        <List />
+        <List />
     </div>
 )};
 
